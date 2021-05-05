@@ -8,7 +8,7 @@
         <link rel = "stylesheet" href="styles/styles.css">
         <link rel = "icon" type = "image/png" href="images/navLogo.jpg">
     </head>
-    <body>
+    <body class="light light__lightBody">
 
         <h1 style="text-align: center;" class="hide-for-mobile">
             Swachh Bharat Swasth Bharat
@@ -17,8 +17,8 @@
         <header class="header container">
             <div class="overlay hide_overlay"></div>
             <nav class="flex flex-jc-sb flex-ai-c">
-                <a href="" class="header__logo">
-                <img src="images/navLogo1.jpg" alt="logo"/>
+                <a class="header__logo toggle">
+                    <img id="toggling" src="images/navLogo1.jpg" alt="logo"/>
                 </a>
     
                 <a id ="btnhamburger" href="#" class="header__hamburger hide-for-desktop">
@@ -46,36 +46,6 @@
                     
             </div>
         </div>
-
-        <!--
-        <div class="slidershow middle">
-            
-            
-            <div class="slides">
-
-                <input type="radio" name="r" id="r1" checked>
-                <input type="radio" name="r" id="r2">
-                <input type="radio" name="r" id="r3">
-                <input type="radio" name="r" id="r4">
-                <input type="radio" name="r" id="r5">                
-
-                <div class="slide s1"><img src="images/mainImg2.jpg" ></div>
-                <div class="slide"><img src="images/mainImg.jpg" ></div>
-                <div class="slide"><img src="images/mainImg3.jpg" ></div>
-                <div class="slide"><img src="images/mainImg4.jfif" ></div>
-                <div class="slide"><img src="images/mainImg5.jpg" ></div>
-            </div>
-
-            <div class="navigation">
-                <label for="r1" class="bar"></label>
-                <label for="r2" class="bar"></label>
-                <label for="r3" class="bar"></label>
-                <label for="r4" class="bar"></label>
-                <label for="r5" class="bar"></label>
-            </div>
-
-        </div>
-    -->
 
 
         <div class="impOfcleanliness sidePadding">
@@ -160,7 +130,9 @@
         <div class="footer">
             <p>
                 Made By :- Swachh bharat swasth bharat group @ VIT Bhopal.
+                
             </p>
+            
         </div>
 
         <script src="js/script.js"></script>

@@ -9,7 +9,7 @@
         <link rel = "icon" type = "image/png" href="images/navLogo.jpg">
     </head>
 
-    <body>
+    <body class="light light__lightBody">
 
         <h1 style="text-align: center;" class="hide-for-mobile">
             Swachh Bharat Swasth Bharat
@@ -18,8 +18,8 @@
         <header class="header container">
             <div class="overlay hide_overlay"></div>
             <nav class="flex flex-jc-sb flex-ai-c">
-                <a href="#" class="header__logo">
-                <img src="images/navLogo1.jpg" alt="logo"/>
+                <a class="header__logo toggle">
+                    <img id="toggling" src="images/navLogo1.jpg" alt="logo"/>
                 </a>
     
                 <a id ="btnhamburger" href="#" class="header__hamburger hide-for-desktop">
@@ -48,7 +48,7 @@
     
         <div class="container">
             <div class="awareness_progs container">
-                <h2 class="subHeading">
+                <h2 class="subHeading" style="color: yellow;">
                     Awareness programmes made by the Government.
                 </h2>
                 <div class="missionDesc ">
@@ -135,9 +135,12 @@
         </div>
 
         <div class="footer">
+            
             <p>
                 Made By :- Swachh bharat swasth bharat group @ VIT Bhopal.
+                
             </p>
+            
         </div>
 
         <script src="js/script.js"></script>
