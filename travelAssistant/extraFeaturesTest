@@ -1,0 +1,6 @@
+<div class="roller">
+    <span id="rolltext">HTML<br/>
+        CSS<br/>
+        Curiosity<br/>
+        <span id="spare-time">too much spare time?</span><br/>
+    </div>
