@@ -135,8 +135,8 @@ body {
 }
 
 .description {
-  font-family: 'Tangerine', cursive;
-  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
   font-style: italic;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
