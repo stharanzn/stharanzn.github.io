@@ -1,0 +1,1 @@
+const text = "just to keep folder"
