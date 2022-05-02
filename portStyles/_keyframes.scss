@@ -1,0 +1,65 @@
+
+@keyframes moonSlideIn{
+    from{
+        opacity: 0;
+        right: -50px;
+    }
+    to {
+        opacity: 1;
+        right: 5rem;
+
+    }
+}
+
+@keyframes charSlideIn{
+    from{
+        opacity: 0;
+        left: -100px;
+    }
+    to{
+        opacity: 1;
+        left: 10rem;
+    }
+}
+
+@keyframes cycleSlideIn{
+    from{
+        opacity: 0;
+        right: -100px;
+    }
+    to{
+        opacity: 1;
+        right: 15rem;
+    }
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes rotateMoon {
+    0%{
+        transform: rotate(0);
+    }50%{
+        transform: rotate(360deg);
+    }100%{
+        transform: rotate(0);
+    }
+}
+
+@keyframes fadeInnOut {
+    0%{
+        opacity: 0;
+    }50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}

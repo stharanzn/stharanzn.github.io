@@ -5,6 +5,13 @@
 //     align-self: center;
 // }
 
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 .UD{
     color: white;
     text-align: center;
@@ -12,10 +19,13 @@
     margin:0 auto;
 }
 
-body{
+.UDBody{
     background-color: black;
 }
+
+
 
 .proj_links{
     color:white;
 }
+

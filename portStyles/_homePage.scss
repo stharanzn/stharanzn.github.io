@@ -1,0 +1,124 @@
+html,body{
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.homePage{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    
+
+    .background{  
+        width: 100%;
+        height: 100%;      
+        background: linear-gradient(180deg, #000000 0%, rgba(7, 19, 105, 0.51) 100%);
+
+        .name{
+            color: #fff;
+            font-family: 'Tourney', cursive;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 3rem;
+            position: absolute;
+            left: 15rem;
+            top: 1rem;
+            animation: fadeIn 5s;
+        }
+
+        .stuffLine{
+            color: #fff;
+            font-family: 'Underdog', cursive;
+            position: absolute;
+            top: 10rem;
+            left: 25rem;
+
+            font-size: 2rem;
+            animation: fadeInnOut 4s infinite linear;
+
+            .devSpan{
+                color: $fontYellow;
+            }
+            
+
+        }
+
+        .logo{
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            animation: fadeIn 2s;
+        }
+
+        .bottom{
+            position: absolute;
+            bottom: -120px;
+            width: 100%;
+            height: 290px;
+            background-image: url("/public/bottom.png");
+        }
+
+        .char{
+            position: absolute;
+            bottom: 85px;
+            left: 10rem;
+            animation: charSlideIn 2s;
+        }
+
+        .cycle{
+            position: absolute;
+            bottom: -2px;
+            right: 15rem;
+            animation: cycleSlideIn 2s;
+        }
+
+        .moon{
+            position: absolute;
+            top: 1rem;
+            right: 5rem;
+
+            animation: moonSlideIn 2s,
+            rotateMoon 45s infinite;
+        }
+
+        .bottomNav{
+            position: absolute;
+            bottom: 1.5rem;
+            right: 2rem;
+            
+            a{
+                font-size: 1.5rem;
+                font-family: 'Permanent Marker', cursive;
+                text-decoration: none;
+                color: #fff;
+                    
+            }
+
+            .selected{
+                color: $fontYellow;
+            }
+
+            :not(:first-child){
+                margin-left: 2rem;
+            }
+        }
+
+    
+    }
+
+    
+
+}
+
+
